@@ -1,69 +1,379 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Jas042.github.io by jas042</title>
+<!DOCTYPE html>
+<head>
+  <title>major(7) - a social nerd - Linux man page</title>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <style type="text/css">
+    body {
+      font-family: monospace;
+      font-size: 12px;
+      color: #222222;
+      margin: 20px 10px 0px 20px;
+      text-align: left;
+    }
+    .manheader {
+      font-family: monospace;
+      font-size: 12px;
+      margin: 10px 0px 0px 0px;
+    }
+    h1 {
+      font-size: 12px;
+      font-weight: bold;
+      margin: 15px 0px 0px 0px;
+    }
+    .subtext {
+      margin: 0px 0px 10px 50px;
+      width: 575px;
+    }
+    .doublesubtext {
+      margin: 0px 0px 10px 70px;
+      width: 525px;
+    }
+    .triplesubtext {
+      margin: 0px 0px 10px 90px;
+      width: 475px;
+    }
+    .bottomcut {
+      margin-bottom: 0px;
+    }
+    a, a.active, a.visited, a.hover {
+      color: #222222;
+      text-decoration: underline;
+    }
+    .footer {
+      margin: 10px 0px 20px 0px;
+      color: #CCCCCC;
+    }
+    .linkfloater {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      padding: 5px;
+      text-align: right;
+      background-color: #222222;
+      color: #FFFFFF;
+    }
+    .linkfloater a:link, .linkfloater a:visited, .linkfloater a:hover {
+      color: #00FF00;
+      text-decoration: underline;
+    }
+  </style>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1115744-9']);
+    _gaq.push(['_setDomainName', 'majorhayden.com']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+<body>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">Jas042.github.io</h1>
-        <p class="header">My homepage</p>
+<div class="linkfloater">
+  <span>Major's Links</span><hr>
+  <a href="http://major.io/">major.io</a><br>
+  <a href="https://major.io/icanhazip-com-faq/">icanhazip.com</a><br><br>
+  <a href="http://github.com/major">GitHub</a><br>
+  <a href="http://twitter.com/majorhayden">Twitter</a><br>
+  <a href="https://plus.google.com/+MajorHayden/">Google+</a><br>
+  <a href="https://www.linkedin.com/in/majorhayden">LinkedIn</a><br><br>
+  Why does<br>this resume<br>look strange?<br>
+  It's a <a href="http://en.wikipedia.org/wiki/Man_page">man page</a>!
+</div>
 
+<pre class="manheader">
+MAJOR(7)                           Linux User's Manual                            MAJOR(7)
+</pre>
+<h1>NAME</h1>
+<p class="subtext">
+  Major Hayden - a social nerd
+</p>
 
+<h1>SYNOPSIS</h1>
+<p class="subtext">
+  major [--admin systems|database] [--contributor] [--developer] [--educator] <br />
+  [--leader] [--other]
+</p>
 
-        <ul>
-          <li><a class="buttons github" href="https://github.com/jas042">GitHub Profile</a></li>
-        </ul>
+<h1>SUMMARY</h1>
+<p class="subtext">
+  I’m a Linux Engineer with skills in database administration, system
+  administration, application development and leadership. I enjoy connecting people with
+  technology solutions that are easy to use, affordable, and sustainable over
+  time.  I'm familiar with, and a huge supporter of, the DevOps culture and how
+  to make it work with a large team in a fast paced environment.
+</p>
+<p class="subtext">
+  Information security has also been an interest of mine.  As the Chief Security
+  Architect for Rackspace, I lead a team of senior Windows, Linux and networking
+  engineers who were dedicated to increasing security within Rackspace and for
+  our customers. We provided critical security advisement to the business as a 
+  whole and we fueled technical security projects that reduced risk, reduced 
+  product development cycle time, and increased customer confidence.
+</p>
+<p class="subtext">
+  I was previously working on the OpenStack project and its integration
+  with Citrix Xenserver and Nicira's networking stack.  I also maintained our
+  high-availability clusters, Debian packaging and various system tools and scripts.
+  Our team created a highly automated continuous integration system with Jenkins
+  that allowed us to test and deploy new code much more rapidly than before.
+</p>
+<h1>OPTIONS</h1>
+<p class="subtext">
+  --admin systems
+</p>
+<p class="doublesubtext">
+  Extensive experience with the configuration, hardening, and maintenance of
+  various Linux distributions, including:
+</p>
+<p class="triplesubtext">
+  * Red Hat Enterprise Linux, Fedora, CentOS, Scientific Linux<br />
+  * Debian, Ubuntu<br />
+  * Gentoo<br />
+</p>
+<p class="doublesubtext">
+  Comfortable working with open source Xen and Xen Server installations in 
+  large-scale environments. Able to customize and patch upstream pv-ops kernels
+  for use with Xen and also familiar with the preparation and maintenance of
+  base images for Xen guests.  Very proficient with KVM and the libvirt tool stack.
+</p>
+<p class="doublesubtext">
+  Experienced in rapid deployment and configuration management technologies
+  such as kickstarts, Red Hat Satellite Server, and Ansible.
+</p>
+<p class="doublesubtext">
+  Able to set up vital Linux infrastructure components including load balancers,
+  DNS servers, web/application servers, and mail servers.  Familiar with
+  network-level security policies as well as server-level security layers like
+  SELinux.  Well-versed in RouterOS network device management with RouterOS
+  software.
+</p>
+<p class="doublesubtext">
+  GIAC Certifications:
+</p>
+<p class="triplesubtext">
+  * <a href="http://www.giac.org/certified-professional/major-hayden/138471">
+      GIAC Security Essentials (GSEC)</a><br />
+  * <a href="http://www.giac.org/certified-professional/major-hayden/138471">
+      GIAC Certified UNIX Security Administrator (GCUX)</a><br />
+</p>
+<p class="doublesubtext">
+  Red Hat Linux Certifications:
+</p>
+<p class="triplesubtext">
+  * <a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-268-455">
+      Red Hat Certified Architect</a><br />
+  * <a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-268-455">
+      Red Hat Certified Datacenter Specialist</a><br />
+  * <a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-268-455">
+      Red Hat Certified Engineer - RHEL 4</a><br />
+  * <a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-268-455">
+      Red Hat Certified Engineer - RHEL 5</a><br />
+  * <a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-268-455">
+      Red Hat Certified Engineer - RHEL 6</a><br />
+</p>
+<p class="doublesubtext">
+  Red Hat Linux Certificates of Expertise:
+</p>
+<p class="triplesubtext">
+  * <a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-268-455">
+    EX333 - Enterprise Security: Network Services</a><br />
+  * <a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-268-455">
+    EX401 - Deployment and Systems Management</a><br />
+  * <a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-268-455">
+    EX423 - Directory Services and Authentication</a><br />
+  * <a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-268-455">
+    EX436 - Storage Management</a><br />
+  * <a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-268-455">
+    EX442 - System Monitoring and Performance Tuning</a><br />
+</p>
+<p class="subtext">
+  --admin database
+</p>
+<p class="doublesubtext">
+  Skilled in MySQL database administration for standalone servers as well as
+  replicated and clustered environments.  Authored 
+  <a href="http://mysqltuner.com/">MySQLTuner</a> in an effort to efficiently
+  optimize database servers based on their specific workloads.
+</p>
+<p class="doublesubtext">
+  Currently a Certified MySQL Database Administrator.
+</p>
 
-      </header>
-      <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<p class="subtext">
+  --contributor
+</p>
+<p class="doublesubtext">
+  Serving on the <a href="http://fedoraproject.org/wiki/Board">Fedora Project Board</a> since 2012.
+</p>
+<p class="doublesubtext">
+  Currently a 
+  <a href="https://admin.fedoraproject.org/pkgdb/users/packages/mhayden">
+  package maintainer</a> for the following Fedora Linux packages:
+</p>
+<p class="triplesubtext">
+  * apt-mirror<br />
+  * drbd<br />
+  * httpry<br />
+  * mysqltuner<br />
+</p>
+<p class="doublesubtext">
+  All projects can be found in
+  <a href="https://github.com/major">GitHub</a>. Most efforts are
+  related to the following projects:
+</p>
+<p class="triplesubtext">
+  * <a href="http://major.github.com/supernova/">
+      supernova</a><br />
+  * <a href="http://major.github.com/rackspace-clouddns-gui/">
+      Rackspace Cloud DNS GUI</a> (deprecated)<br />
+  * <a href="https://github.com/major/mysql-json-bridge">
+      mysql-json-bridge</a><br />
+  * <a href="https://github.com/major/MySQLTuner-perl">
+      MySQLTuner-perl</a><br />
+  * <a href="https://github.com/major/kickstarts">
+      kickstarts</a><br />
+</p>
+<p class="doublesubtext">
+  I've contributed code to various OpenStack projects during my daily work at
+  Rackspace.  In addition, I've written scripts and tools to make managing
+  an OpenStack environment a little easier.  Although some are Rackspace-specific
+  and proprietary, I release a large amount of code on GitHub as open source.
+</p>
+<p class="doublesubtext">
+  A selection of projects I've contributed to over the years:
+</p>
+<p class="triplesubtext">
+  * <a href="https://github.com/ansible/ansible">ansible</a><br />
+  * <a href="https://github.com/major/cis-rhel-ansible">cis-rhel-ansible</a><br />
+  * <a href="https://github.com/haraldh/dracut">dracut</a><br />
+</p>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p class="subtext">
+  --developer
+</p>
+<p class="doublesubtext">
+  <a href="https://github.com/major/cis-rhel-ansible">cis-rhel-ansible</a><br>
+  Audit and remediate security benchmarks on Red Hat Enterprise Linux servers
+  using Ansible.  Uses Center for Internet Security (CIS) benchmarks as a
+  baseline.
+</p>
+<p class="doublesubtext">
+  <a href="https://github.com/major/mysql-json-bridge">mysql-json-bridge</a><br>
+  Allows for MySQL results to be delivered via JSON.  Consumers need no access to the
+  databases being queried.
+</p>
+<p class="doublesubtext">
+  <a href="https://github.com/major/MySQLTuner-perl">mysqltuner</a><br>
+  MySQLTuner is a script written in Perl that will assist you with your MySQL
+  configuration and make recommendations for increased performance and stability.
+  Development has gone a bit dormant but I do what I can to keep it updated.
+</p>
+<p class="doublesubtext">
+  <a href="https://github.com/major/supernova">supernova</a><br>
+  The supernova wrapper for novaclient allows a user to store credentials for multiple
+  OpenStack environments and use them with simple command line arguments.  Credentials
+  can be stored in system keychains for increased security.
+</p>
+<p class="doublesubtext">
+  Currently focused on Python for work with OpenStack components but able to
+  work with Ruby, PHP, Perl, and shell scripting if needed.
+</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<p class="subtext">
+  --educator
+</p>
+<p class="doublesubtext">
+  Started multiple projects to share knowledge and assist other technical people:
+</p>
+<p class="triplesubtext">
+  * <a href="http://major.io/">
+      major.io</a> - words of wisdom from a server administrator<br />
+  * <a href="http://pleskhacker.com/">
+      Plesk Hacker</a> - detailed documentation of the Plesk database<br />
+  * <a href="http://icanhazip.com/">
+      icanhazip</a> - simple public IP detection<br />
+  * <a href="http://mysqltuner.com/">
+      MySQL Tuner</a> - high-performance MySQL tuning script<br />
+</p>
+<p class="doublesubtext">
+  Compiled and taught classes covering various systems administration topics
+  including MySQL database administration, SSL certificates, and server
+  security.
+</p>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<p class="subtext">
+  --leader
+</p>
+<p class="doublesubtext">
+  Comfortable leading groups of technical people in customer-facing
+  environments.  Also able to provide individualized mentoring on technical and
+  career development topics.
+</p>
+<p class="doublesubtext">
+  Familiar with the agile development methodology and how to apply it to an
+  operations environment. Experienced with sprint planning, release planning,
+  and change management coordination.
+</p>
+<p class="subtext">
+  --other
+</p>
+<p class="doublesubtext">
+  Published articles and presentations:
+</p>
+<p class="triplesubtext">
+  <a href="http://www.scmagazine.com.au/News/340475,stop-disabling-selinux.aspx">Stop Disabling SELinux</a>, <em>SC Magazine</em><br>
+  <a href="https://bit.ly/evadethebreach">Evade the Breach</a>
+  , <em>Prepared for Accruent Insights 2014</em>
+</p>
+<p class="doublesubtext">
+  Formerly certified as an Emergency Medical Technician in Texas.
+</p>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<h1>HISTORY</h1>
+<p class="subtext bottomcut">
+  * <a href="http://rackspace.com/">Rackspace</a>
+</p>
+<p class="doublesubtext">
+  - Cloud Architect, Cloud Servers<br>
+  - Chief Security Architect, Director<br>
+  - Linux Engineer, OpenStack / Next-Generation Cloud Servers<br>
+  - Engineering Manager, Cloud Servers Operations<br>
+  - Senior Systems Engineer<br>
+  - Linux Systems Administrator
+</p>
+<p class="subtext bottomcut">
+  * SecureTrust Corporation<br />
+  &nbsp;&nbsp;(now a wholly owned subsidiary of
+  <a href="http://trustwave.com/">Trustwave Holdings, Inc.</a>)
+</p>
+<p class="doublesubtext">
+  - VP of Operations<br />
+  - Lead Developer
+</p>
+<p class="subtext bottomcut">
+  * <a href="http://www.amr.net/">American Medical Response</a>
+</p>
+<p class="doublesubtext">
+  - Field Medic / EMT
+</p>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<h1>SEE ALSO</h1>
+<p class="subtext">
+  * E-mail:      major at mhtx dot net<br />
+  * Phone:       210.370.7667 (yes, that's 210.370.POOP)<br />
+  * Twitter:     <a href="http://twitter.com/majorhayden">majorhayden</a><br />
+  * IRC:         mhayden on irc.freenode.net
+</p>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<pre class="manheader">
+Major Hayden                          2014-05-24                                  MAJOR(7)
+</pre>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		
-  </body>
+<p class="footer">
+  &copy; 2014 Major Hayden
+</p>
+</body>
 </html>
