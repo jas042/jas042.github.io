@@ -671,7 +671,7 @@
 
 							#nav ul li a.active span:before
 							{
-								color: #e27689;
+								color: #2E9AFE;
 							}
 
 /*********************************************************************************/
@@ -766,7 +766,7 @@
 			#main > section.one
 			{
 				background-color: #81918E;
-				background-image: url('../images/banner.jpg');
+				background-image: url('../images/trindade.jpg');
 			}
 
 			#main > section.two
